@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 400px;
+    height: 500px;
+}
+.heading {
+    width: 400px;
+    height: 60px;
+    padding-top:10px ;
+    padding-bottom: 5px;
+    background-color: 	#ffd700;
+    justify-content: center;
+    text-align: center;
+}
+h1 {
+    font-size: 30px;
+    font-family: sans-serif;
+    color: black;
+}
+.section{
+    width: 400px;
+    height: 440px;
+    justify-content: center;
+    align-items: center;
+    background-color: 	#ffd700;
+}
+.navbar{
+    width: 300px;
+    height: 70px;
+    margin-left: 50px;
+    box-shadow: -10px -10px 15px rgba(129, 79, 79, 0.15) , 10px 10px 15px rgba(70, 70, 70, 0.12) ;
+    display: flex;
+    position: absolute;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbar .collection {
+    width: 300px;
+    height: 70px;
+    padding-top: 12px;
+    border-radius: 50px;
+    font-size: 30px;
+    text-decoration: none;
+    text-align: center;
+    background-color: #ffd700;
+    color: black;
+}
+.navbar .collection:hover{
+    background-color: black;
+    color: #ffd700;
+    cursor: pointer;
+}
+
+.notes{
+    width: 300px;
+    height: 250px;
+    margin-left: 50px;
+    padding-top: 100px;
+}
+
+.notes .text{
+    width: 300px;
+    height: 250px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-right: 10px;
+    font-size: 17px;
+    font-family: sans-serif;
+    background-color: white;
+}
+.notes .add-notes {
+    margin-top: 10px;
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+    background-color: black;
+    color: #ffd700;
+    text-decoration: none;
+    border-radius: 25px;
+}
+
+.notes .add-notes:hover{
+    cursor: pointer;
+}
